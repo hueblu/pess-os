@@ -1,5 +1,5 @@
 # piss-OS
-
+## "Pragmatic Intelegent Shitter System"
 very, very bad OS written in rust (for that 🚀 blazingly fast 🚀 performance). Perfect for all my psychopaths out there
 
 ## In the Future
