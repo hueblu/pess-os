@@ -1,6 +1,6 @@
 # piss-OS
 
-very very bad OS written in rust (for that 🚀 blazingly fast 🚀 performance), the name is currently a WIP
+very, very bad OS written in rust (for that 🚀 blazingly fast 🚀 performance). Perfect for all my psychopaths out there
 
 ## In the Future
 
