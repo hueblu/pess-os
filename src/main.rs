@@ -1,25 +1,21 @@
-#![no_std]
-#![no_main]
+// whether to boot as UEFI or BIOS
+const UEFI: bool = true;
 
-extern crate bootloader;
+fn main() -> Result<(), ()> {
+    // read env variables that were generated in build script
+    let uefi_path = env!("UEFI_PATH");
+    // let bios_path = env!("BIOS_PATH");
 
-use bootloader::{entry_point, BootInfo};
-use core::panic::PanicInfo;
-
-entry_point!(kernel_main);
-
-fn kernel_main(boot_info: &'static mut BootInfo) -> ! {
-    // turn the screen gray
-    if let Some(framebuffer) = boot_info.framebuffer.as_mut() {
-        for byte in framebuffer.buffer_mut() {
-            *byte = 0x90;
-        }
+    let mut cmd = std::process::Command::new("qemu-system-x86_64");
+    if UEFI {
+        cmd.arg("-bios").arg(ovmf_prebuilt::ovmf_pure_efi());
+        cmd.arg("-drive")
+            .arg(format!("format=raw,file={uefi_path}"));
+    } else {
+        // cmd.arg("-drive")
+        // .arg(format!("format=raw,file={bios_path}"));
     }
-
-    loop {}
-}
-
-#[panic_handler]
-fn panic(_info: &PanicInfo) -> ! {
-    loop {}
+    let mut child = cmd.spawn().unwrap();
+    child.wait().unwrap();
+    Ok(())
 }
