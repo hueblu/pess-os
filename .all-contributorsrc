@@ -7,6 +7,17 @@
   "commitConvention": "angular",
   "contributors": [
     {
+      "login": "hueblu",
+      "name": "blu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52867612?v=4",
+      "profile": "https://github.com/hueblu",
+      "contributions": [
+        "code",
+        "doc",
+        "infra",
+        "maintenance"
+    },
+    {
       "login": "Pengalu",
       "name": "Pengalu",
       "avatar_url": "https://avatars.githubusercontent.com/u/72057664?v=4",
