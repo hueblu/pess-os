@@ -45,6 +45,7 @@ hobby OS written in rust (🚀 blazingly fast 🚀).
   <tbody>
     <tr>
       <td align="center"><a href="https://github.com/hueblu"><img src="https://avatars.githubusercontent.com/u/52867612?v=4?s=100" width="100px;" alt="blu"/><br /><sub><b>blu</b></sub></a><br /><a href="https://github.com/hueblu/pess-os/commits?author=hueblu" title="Code">💻</a> <a href="https://github.com/hueblu/pess-os/commits?author=hueblu" title="Documentation">📖</a> <a href="#infra-hueblu" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-hueblu" title="Maintenance">🚧</a></td>
+      <td align="center"><a href="https://pengalu.me/"><img src="https://avatars.githubusercontent.com/u/72057664?v=4?s=100" width="100px;" alt="Pengalu"/><br /><sub><b>Pengalu</b></sub></a><br /><a href="https://github.com/hueblu/pess-os/commits?author=Pengalu" title="Documentation">📖</a> <a href="#userTesting-Pengalu" title="User Testing">📓</a></td>
     </tr>
   </tbody>
 </table>
