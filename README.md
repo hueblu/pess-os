@@ -22,15 +22,15 @@ hobby OS written in rust (🚀 blazingly fast 🚀).
 ## TODO
 
 - [x] Setup building with bootloader and running with QEMU
-- [] Implement VGA buffer to write to the screen
-- [] Find a way to run unit and integration tests on the kernel
-- [] Interrupts
-  - [] Setup an IDT to better handle CPU interrupts
-  - [] Setup IDT to capture hardware interrupts, to get input from the keyboard and such
-  - [] Implement IST to handle double faults
-- [] Memory Management
-  - [] Paging
-  - [] Heap Allocating
+- [ ] Implement VGA buffer to write to the screen
+- [ ] Find a way to run unit and integration tests on the kernel
+- [ ] Interrupts
+  - [ ] Setup an IDT to better handle CPU interrupts
+  - [ ] Setup IDT to capture hardware interrupts, to get input from the keyboard and such
+  - [ ] Implement IST to handle double faults
+- [ ] Memory Management
+  - [ ] Paging
+  - [ ] Heap Allocating
   
 
 ## Contributors
