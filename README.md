@@ -1,4 +1,7 @@
 # pess-OS
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 hobby OS written in rust (🚀 blazingly fast 🚀).
 
@@ -36,6 +39,20 @@ hobby OS written in rust (🚀 blazingly fast 🚀).
 ## Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center"><a href="https://pengalu.me/"><img src="https://avatars.githubusercontent.com/u/72057664?v=4?s=100" width="100px;" alt="Pengalu"/><br /><sub><b>Pengalu</b></sub></a><br /><a href="https://github.com/hueblu/pess-os/commits?author=Pengalu" title="Documentation">📖</a> <a href="#userTesting-Pengalu" title="User Testing">📓</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 
