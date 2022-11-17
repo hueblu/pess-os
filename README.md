@@ -1,25 +1,45 @@
-# piss-OS
+# pess-OS
 
-the: \
-`P` - psychopath's \
-`I` - instrumentatal, \
-`S` -  \
-`S` - Operating System \
-OS
+hobby OS written in rust (🚀 blazingly fast 🚀).
 
-very, very bad OS written in rust (for that 🚀 blazingly fast 🚀 performance). Perfect for all my psychopaths out there
-
-## In the Future
-
-I plan to develop this to the point of working as a daily driver, so that I can flex that I use my own custom OS.
+## Building from Source
 
 ### Prequsities
 - [QEMU](https://www.qemu.org/)
-- rust nightly, preferably through [rustup](https://rustup.rs/)
+- Rust (nightly), preferably through [rustup](https://rustup.rs/)
 
-### Building
-- To build the kernel, run **`cargo kbuild`**.
-- To build the kernel and turn it into a bootable disk image, run **`cargo kimage`** (short for "kernel image"). This will invoke our `boot` sub-crate with an additional `--no-run` argument so that it just creates the disk image and exits.
-- To additionally run the kernel in QEMU after creating the disk image, run **`cargo krun`**.
+### Step-by-Step
+1. First, ensure you have the prerequisites:
+  `qemu-system-x86_64 --version`
+  `rustup show`
+
+2. Second, clone the repository and navigate to it:
+  `git clone https://github.com/hueblu/pess-os ./pess-os && cd ./pess-os`
+
+2. Finally, build and run the kernel:
+  `cargo run`
+
+## TODO
+
+- [x] Setup building with bootloader and running with QEMU
+- [] Implement VGA buffer to write to the screen
+- [] Find a way to run unit and integration tests on the kernel
+- [] Interrupts
+  - [] Setup an IDT to better handle CPU interrupts
+  - [] Setup IDT to capture hardware interrupts, to get input from the keyboard and such
+  - [] Implement IST to handle double faults
+- [] Memory Management
+  - [] Paging
+  - [] Heap Allocating
+  
 
 ## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
