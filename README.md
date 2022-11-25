@@ -25,7 +25,8 @@ hobby OS written in rust (🚀 blazingly fast 🚀).
 ## TODO
 
 - [x] Setup building with bootloader and running with QEMU
-- [ ] Implement VGA buffer to write to the screen
+- [x] Implement VGA buffer to write to the screen
+- [ ] Implement a serial port interface to write to host computer console
 - [ ] Find a way to run unit and integration tests on the kernel
 - [ ] Interrupts
   - [ ] Setup an IDT to better handle CPU interrupts
